@@ -13,3 +13,7 @@ npm install
 ```
 npm start 
 ```
+## 3. Go to
+```
+http://localhost:4200/
+```
