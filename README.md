@@ -17,3 +17,4 @@ npm start
 ```
 http://localhost:4200/
 ```
+![Screenshot](https://github.com/fabianMM04/condorFrontend/blob/master/frontend.png?raw=true "Optional Title")
