@@ -10,11 +10,8 @@ import { GLOBAL } from './global';
 })
 export class SearchService {
     public url: string;
-    public url2: string;
-    public identity;
-    public token;
-  constructor(private http: HttpClient) { 
-    this.url = GLOBAL.url;
+    constructor(private http: HttpClient) { 
+      this.url = GLOBAL.url;
   }
 
 
