@@ -21,7 +21,7 @@
                     <div class="media-left">
                         <iframe [src]="data.id.videoId | domseguro:'https://youtube.com/embed/'" height="200" width="300"></iframe>
                     </div>
-                    <div class="media-body">
+                    <div class="media-body" [routerLink]="['/video', data.id.videoId ]">
                         <div class="media-heading">
                             <strong>{{data.snippet.title}} </strong>
                             <h6 class="video-list-item-h6">{{data.snippet.channelTitle}}</h6>

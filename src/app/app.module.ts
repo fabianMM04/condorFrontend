@@ -4,7 +4,8 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { routing, appRoutingProviders } from './app.routing';
 import { AppComponent } from './app.component';
-import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './components/search/search.component';
+import { VideoComponent } from './components/video/video.component';
 // Importar HttpClientModule
 import {HttpClientModule} from '@angular/common/http';
 //Servicios
@@ -16,6 +17,7 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
   declarations: [
     AppComponent,
     SearchComponent,
+    VideoComponent,
     DomseguroPipe,
 
    

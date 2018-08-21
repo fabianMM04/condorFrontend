@@ -1,7 +1,7 @@
 
 import { Component, OnInit, DoCheck } from '@angular/core';
-import {Youtube} from '../models/search';
-import { SearchService } from '../services/search.service';
+import {Youtube} from '../../models/search';
+import { SearchService } from '../../services/search.service';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 @Component({
   selector: 'app-search',
